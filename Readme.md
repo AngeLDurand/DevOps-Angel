@@ -19,13 +19,23 @@ Tener una rama main para el codigo que funciona bien y una rama develop para ir 
 * docs: Cuando solo modifique el README u otra documentacion.
 
 ### c. Estructura de carpetas del proyecto
+```text
 DevOps-Angel/
 ├── .github/              # Configuración de automatizaciones y flujos de trabajo
 ├── notebooks/            # Cuadernos Jupyter con el modelo de machine learning
 │   └── Plant_Village.ipynb
 ├── .gitignore            # Archivos ignorados por Git
 └── README.md             # Documentación técnica del repositorio
-  
-## 3. Reglas para juntar el codigo (Merge):
-* Para simular un entorno de trabajo real, evitare hacer merge directo a las ramas main o develop desde la terminal.
-* Todo lo integrare creando Pull Requests (PR) en github. AsÃ­ me obligo a hacer una ultima revision visual de mi propio codigo antes de aceptarlo y juntarlo con lo principal.
+DevOps-Angel/
+├── .github/              # Configuración de automatizaciones y flujos de trabajo
+├── notebooks/            # Cuadernos Jupyter con el modelo de machine learning
+│   └── Plant_Village.ipynb
+├── .gitignore            # Archivos ignorados por Git
+└── README.md             # Documentación técnica del repositorio
+```
+
+## 3. Trazabilidad del Desarrollo
+A continuación se documenta el flujo de trabajo ejecutado paso a paso en el control de versiones: 
+
+### 1. Clonacion del repositorio e inicializacion de ramas:
+
