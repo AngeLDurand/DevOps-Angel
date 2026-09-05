@@ -3,10 +3,10 @@
 ---
 
 ## 1. Justificación de la Estrategia de Ramificación (IE1)
-Para este proyecto se seleccionó el modelo **GitFlow** en lugar de alternativas como *GitHub Flow* o *Trunk-Based Development*, debido a las siguientes ventajas en entornos colaborativos y de producción:
-* **Separación de Entornos:** Permite mantener una rama estable (`main`) exclusiva para código en producción y una rama de integración continua (`develop`) donde convergen las nuevas funcionalidades.
-* **Trazabilidad y Control:** El uso de ramas temporales (`feature/` y `hotfix/`) aísla el desarrollo de nuevas características y la corrección de errores críticos, evitando corromper la línea base de producción.
-* **Preparación para CI/CD:** Facilita la automatización de pruebas y despliegues al estructurar claramente qué ramas deben disparar un pipeline de integración.
+Para este proyecto se seleccionó el modelo **GitFlow**, evaluándolo frente a otras alternativas:
+* **GitFlow (Seleccionado):** Ideal para proyectos con ciclos de lanzamiento estructurados. Utiliza ramas dedicadas (`develop`, `feature/`, `hotfix/`), permitiendo un control estricto antes de llegar a producción (`main`).
+* **GitHub Flow:** Un modelo más ligero y directo donde todo sale de `main` y se fusiona rápidamente mediante Pull Requests. Es útil para despliegues continuos en aplicaciones web o SaaS, pero menos estructurado para entornos académicos con múltiples versiones.
+* **Trunk-Based Development:** Los desarrolladores integran el código en una sola rama central (*trunk*) de manera frecuente. Exige una cobertura de pruebas automatizadas muy alta para evitar romper producción, siendo complejo para equipos que recién se inician en DevOps.
 
 ---
 
