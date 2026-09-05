@@ -12,7 +12,7 @@ Para este proyecto se seleccionó el modelo **GitFlow** en lugar de alternativas
 
 ## 2. Guía de Buenas Prácticas y Convenciones (IE5)
 
-### A. Naming de Ramas (Branch Naming)
+### A. Nombre de Ramas
 Se establece la siguiente nomenclatura estándar para mantener el orden en el control de versiones:
 * `main`: Rama principal que contiene el código estable y listo para producción.
 * `develop`: Rama de integración para las nuevas funcionalidades desarrolladas por el equipo.
