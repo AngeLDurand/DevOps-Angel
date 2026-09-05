@@ -19,5 +19,3 @@ Tener una rama main para el código que funciona bien y una rama develop para ir
 3. Reglas para jntar el código (Merge):
 * Para simular un entorno de trabajo real, evitare hacer merge directo a las ramas main o develop desde la terminal.
 * Todo lo integrare creando Pull Requests (PR) en github. Así me obligo a hacer una ultima revisión visual de mi propio codigo antes de aceptarlo y juntarlo con lo principal.
-
-* 
