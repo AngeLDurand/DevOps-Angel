@@ -37,5 +37,9 @@ DevOps-Angel/
 ## 3. Trazabilidad del Desarrollo
 A continuación se documenta el flujo de trabajo ejecutado paso a paso en el control de versiones: 
 
-### 1. Clonacion del repositorio e inicializacion de ramas:
+* ## 1. Clonacion del repositorio e inicializacion de ramas:
+Clone el repositorio desde Github a mi computador para establecer la base de trabajo local. Luego cree y subi la rama "develop" para separar el codigo en desarrollo de la version estable de produccion ("main").
+
+* ## 2. Incorporacion del microservicio (Rama Feature): **
+Creé la rama
 
